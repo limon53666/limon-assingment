@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Vollkorn', serif;
+}
+.men-div {
+	width: 1046px;
+	margin: 60px auto;
+	
+}
+.header-part {
+	text-align: center;
+	border-top: 1px solid#d6d6d6;
+	border-bottom: 1px solid#d6d6d6;
+	margin-top: 15px;
+	padding: 13px;
+}
+.header-part ul li{
+        display: inline-block;
+        padding: 20px;
+        cursor: pointer;
+        transition: .5s;
+
+}
+.header-part ul li:first-child a{
+    color: black;
+}
+.header-part ul li:hover a{
+    color: red;
+}
+.header-part ul li a{
+    border-bottom: 2px solid transparent;
+    position: relative; 
+    color: #d6d6d6;
+}
+.join-1 {
+	background: #48dbfb;
+	display: inline-block;
+	color: black;
+	padding: 10px 67px 10px 45px;
+	
+	border-radius: 7px;
+	position: absolute;
+	z-index: 1;
+	top: 34px;
+	right: 70px;
+	
+	font-size: 30px;
+	
+}
+.join-1::after{
+    content: "\f064";
+    font-family: "Font Awesome 5 Brands";
+    position: absolute;
+    top: 16px;
+    left: 103px;
+}
+.join-1::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    background-color:orange;
+    border-radius: 7px;
+    transition: .4s;
+    z-index:-1 ;
+  }
+.join-1:hover::before{
+    width: 100%;
+    transition:.4s;
+    
+}
+
+.img {
+	position: absolute;
+	top: 27px;
+	left: 37px;
+}
+/* header-partend */
+.Earn-mony-part{
+    float: left;
+    width: 50%;
+}
+.clearfixt::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.earn{
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+}
+.withrow-p{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.join-2 {
+	background-color: #48dbfb;
+	display: inline-block;
+	color: black;
+	padding: 15px 50px 15px 50px;
+
+	border-radius: 7px;
+    position: relative; 
+	z-index: 1;
+	font-size: 40px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.join-2::before{
+    
+    content: "";
+    height: 0;
+    width:100%;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    background-color:orange;
+    border-radius: 7px;
+    transition: .4s;
+    z-index:-1 ;
+      
+}
+.join-2:hover::before{
+    height: 100%;
+    transition:.4s;
+    
+  }
+  .img-section{
+      float: right;
+      width: 50%;
+  }
+ 
+  /* Withdrawals start */
+  .mony-part {
+	
+	display: inline-block;
+	margin-top: 51px;
+	border-top: 2px solid black;
+}
+
+  .skril{
+      margin-left: 44px;
+  }
+  .paypal{
+      margin-left: 167px;
+  }
+  .payoner{
+      margin-left: 139px;
+  }
+  .help{
+      color:#48dbfb;
+      transition: .5s;
+  }
+  .help:hover{
+      color: red;
+      transition: .5s;
+      cursor: pointer;
+  }
+ /* task part start  */
+ .led {
+	font-size: 45px;
+}
+ .task-part-1 {
+	margin-top: 81px;
+}
+.men-div-pic{
+margin-top: 30px;
+
+
+}
+.img-par-1{
+    float: left;
+    width: 31%;
+    margin-right: 5px;
+}
+.img-par-2{
+    float: left;
+    width: 34%;
+    margin-right: 5px;
+}
+.img-par-3{
+    float: left;
+    width: 33%;
+}
+
+.peragrap-1 {
+	margin-top: 16px;
+	font-size: 25px;
+}
+.peragrap-2 {
+	margin-top: 9px;
+	font-size: 25px;
+}
+.peragrap-3 {
+	margin-top: 9px;
+	font-size: 25px;
+}
+.peragrap-4 {
+	margin-top: 16px;
+	font-size: 23px;
+}
+.peragrap-5 {
+	margin-top: 22px;
+	font-size: 23px;
+}
+.peragrap-6 {
+	margin-top: 20px;
+	font-size: 23px;
+}
+
+
+/* footer part */
+.foter-part{
+    margin-top: 100px;
+}
+.foter-part-1{
+    float: left;
+    width: 60%;
+}
+.foter-img{
+    float: left;
+    width: 40%;
+}
+.mobile{
+    font-size: 45px;
+}
+.img-div1 {
+	background-color: #48dbfb;
+	display: inline-block;
+	padding: 8px 18px 8px 50px;
+	border-radius: 6px;
+	position: relative;
+	margin-right: 20px;
+    margin-top: 30px;
+    z-index: 1;
+  
+}
+
+.img-div1::before {
+	content: "\f3ab";
+	font-family: "Font Awesome 5 Brands";
+	position: absolute;
+	top: 13px;
+	left: 11px;
+	color: chartreuse;
+    font-size: 35px;
+}
+.img-div1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:all .5s ease-out;
+    height:0;
+    width: 100%;
+    background-color:#ff5055 ;
+    border-radius: 6px;
+   
+
+}
+.img-div1:hover::after{
+z-index: -1;
+height: 100%;
+transition:all .5s ease-in;
+background-color: #ffd11d;
+}
+
+.img-div2 {
+	background-color: #48dbfb;
+	display: inline-block;
+	padding: 8px 29px 8px 48px;
+	border-radius: 6px;
+    position: relative;
+    z-index: 1;
+	
+}
+.img-div2::before {
+	content: "\f179";
+	font-family: "Font Awesome 5 Brands";
+	position: absolute;
+	top: 5px;
+	left: 7px;
+	color: white;
+    font-size: 45px;
+    transition: .5s;
+}
+.img-div2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    transition:all .5s ease-out;
+    height:0;
+    width: 100%;
+    background-color:#ff5055 ;
+    border-radius: 6px;
+
+}
+.img-div2:hover::after{
+    z-index: -1;
+    height: 100%;
+    transition:all .5s ease-in;
+    background-color:#ffd11d;
+}
+
+.loremp{margin-top: 20px;}
+h4{
+    font-size: 20px;
+    color: black;
+}
+h5{
+    color: black;
+}
+/* foter part end */
+.foter-pard-end{
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+
+.join-last {
+	background-color: #48dbfb;
+	display: inline-block;
+	color: black;
+	padding: 5px 50px 5px 50px;
+	border-radius: 7px;
+	position: relative;
+	z-index: 1;
+	font-size: 40px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.join-last::before{
+    
+    content: "";
+    height: 0;
+    width:100%;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    background-color:orange;
+    border-radius: 7px;
+    transition: .4s;
+    z-index:-1 ;
+      
+}
+.join-last:hover::before{
+    height: 100%;
+    transition:.4s;
+    
+  }
+  .img-section{
+      float: right;
+      width: 50%;
+  }
+
+/* ul part */
+.foter-pard-end{
+    background-color:#d6d6d6 ;
+}
+.foter-pard-end ul li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.foter-pard-end ul li{
+color:red;
+}
+.foter-pard-end ul li:hover{
+    color:#48dbfb;
+}
+span{
+    color:black;
+}
